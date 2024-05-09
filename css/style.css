@@ -253,7 +253,7 @@ i.fa.fa-columns {
 	border-top: 1px solid rgba(236, 236, 236, 0.9);
     border-bottom: 1px solid rgba(236, 236, 236, 0.9);
 }
-i.fa.fa-usd{
+i.fa.fa-INR{
     font-size: 5em;
     color: #1f8dd6;
 }
@@ -2292,7 +2292,7 @@ ul.nav.navbar-nav li a {
 .rupes {
     padding: 3em 0;
 }
-i.fa.fa-h-square,i.fa.fa-usd,i.fa.fa-mobile {
+i.fa.fa-h-square,i.fa.fa-INR,i.fa.fa-mobile {
     font-size: 4em;
 }
 .rupes h4 {
@@ -2494,7 +2494,7 @@ ul.nav.navbar-nav li a {
     float: left;
     width: 33.33%;
 }
-i.fa.fa-h-square, i.fa.fa-usd, i.fa.fa-mobile {
+i.fa.fa-h-square, i.fa.fa-INR, i.fa.fa-mobile {
     font-size: 3.2em;
 }
 .rupes h4 {
@@ -2808,7 +2808,7 @@ nav.cl-effect-1 {
 .bnr-right input[type="text"] {
     padding: 6px 10px;
 }
-i.fa.fa-h-square,i.fa.fa-usd,i.fa.fa-mobile {
+i.fa.fa-h-square,i.fa.fa-INR,i.fa.fa-mobile {
     font-size: 2.8em;
 }
 .rupes h3 {
@@ -2995,7 +2995,7 @@ button.seabtn {
     width: 100%;
     margin-bottom: 2em;
 }
-i.fa.fa-h-square, i.fa.fa-usd, i.fa.fa-mobile {
+i.fa.fa-h-square, i.fa.fa-INR, i.fa.fa-mobile {
     font-size: 5em;
 }
 .rup-left {
@@ -3400,7 +3400,7 @@ ul.set-1 {
 i.fa.fa-h-square {
     font-size: 3em;
 }
-i.fa.fa-usd, i.fa.fa-mobile {
+i.fa.fa-INR, i.fa.fa-mobile {
     font-size: 4em;
 }
 .login-left {
@@ -3955,7 +3955,7 @@ button.seabtn {
 .ban-bottom {
     margin-top: 20px;
 }
-i.fa.fa-h-square, i.fa.fa-usd, i.fa.fa-mobile {
+i.fa.fa-h-square, i.fa.fa-INR, i.fa.fa-mobile {
     font-size: 4em;
 }
 .rupes h3 {

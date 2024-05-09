@@ -106,7 +106,7 @@ $query->execute();
 						  </tr>
 						</thead>
 						<tbody>
-<?php $sql = "SELECT * from tblTourPackages";
+<?php $sql = "SELECT * from tbltourpackages";
 $query = $dbh -> prepare($sql);
 //$query -> bindParam(':city', $city, PDO::PARAM_STR);
 $query->execute();
@@ -121,7 +121,7 @@ foreach($results as $result)
 							<td><?php echo htmlentities($result->PackageName);?></td>
 							<td><?php echo htmlentities($result->PackageType);?></td>
 							<td><?php echo htmlentities($result->PackageLocation);?></td>
-							<td>$<?php echo htmlentities($result->PackagePrice);?></td>
+							<td><?php echo htmlentities($result->PackagePrice);?></td>
 							<td><?php echo htmlentities($result->Creationdate);?></td>
 							<td><a href="update-package.php?pid=<?php echo htmlentities($result->PackageId);?>"><button type="button" class="btn btn-primary btn-block">View Details</button></a><br />
 <a href="manage-packages.php?action=delete&&id=<?php echo $result->PackageId;?>" onclick="return confirm('Do you really want to delete?')" class="btn btn-danger btn-block">Delete</a>
